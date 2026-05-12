@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "Combinación Ideal Timewise® Normal a Seca",
+    "price": 332500,
+    "brand": "MARY KAY",
+    "image": "https://pimg.amr.marykaycdn.com/Hero/10004/Combinacion%20ideal%20TW.png"
+  },
+  {
+    "id": 2,
+    "title": "Filtro de Agua Nano",
+    "price": 2450000,
+    "brand": "RENA WARE",
+    "image": "https://colombia.renaware.com/content/renaware/img/water-filter/aqua-nano.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Sesión Liderazgo 360",
+    "price": 120000,
+    "brand": "COACHING",
+    "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=1000"
+  }
+]

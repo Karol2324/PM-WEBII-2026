@@ -1,0 +1,53 @@
+        :root {
+            --premium-gold: #c5a059;
+            --wellness-green: #2d5a27;
+            --dark-soft: #1a1a1a;
+            --bg-light: #fdfdfd;
+        }
+
+        body { font-family: 'Inter', sans-serif; background-color: var(--bg-light); color: var(--dark-soft); }
+        h1, h2, h3 { font-family: 'Playfair Display', serif; }
+
+        /* Navbar Semántica */
+        .navbar-custom { background: white; border-bottom: 1px solid #eee; }
+        .nav-link { font-weight: 600; text-transform: uppercase; font-size: 0.85rem; letter-spacing: 1px; }
+        .nav-link:hover { color: var(--premium-gold) !important; }
+
+        /* Hero Section */
+        .hero-premium {
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+                        url('https://images.unsplash.com/photo-1540555700478-4be289fbecee?q=80&w=2070') center/cover;
+            height: 70vh;
+            display: flex;
+            align-items: center;
+            color: white;
+        }
+        
+        .btn-premium {
+            background-color: var(--premium-gold);
+            color: white;
+            border-radius: 0;
+            padding: 12px 30px;
+            border: none;
+            transition: 0.3s;
+        }
+        .btn-premium:hover { background-color: var(--wellness-green); color: white; }
+/* Estandarizar el tamaño de las imágenes en las cards */
+        .card-img-top {
+        height: 250px; /* Altura fija para todas */
+        object-fit: cover; /* Recorta la imagen para que llene el espacio sin deformarse */
+        object-position: center; /* Centra el enfoque de la foto */
+        }
+
+/* Asegurar que las cards tengan la misma altura total */
+        .card {
+        display: flex;
+        flex-direction: column;
+        }
+
+        .card-body {
+        flex-grow: 1; /* Hace que el cuerpo de la card ocupe el espacio sobrante */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; /* Alinea los botones al final de forma uniforme */
+        }
